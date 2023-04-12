@@ -496,9 +496,14 @@ hr{
 
    
 
-    .welcome-section .form-group{
-        margin-bottom:40px;
-    }
+    .form-group{
+            width:95%;
+        }
+
+        .form-group h2{
+            font-size:16px;
+        }
+    
 
      nav{
         display:none;
