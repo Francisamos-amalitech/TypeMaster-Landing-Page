@@ -494,9 +494,7 @@ hr{
 
 @media(max-width:900px){
 
-    .hero-section{
-        
-    }
+   
 
     .welcome-section .form-group{
         margin-bottom:40px;
@@ -519,7 +517,7 @@ hr{
      }
 
      .welcome-section h1{
-        font-size:30px;
+        font-size:20px;
         text-align:center;
         margin-bottom:30px;
      }
