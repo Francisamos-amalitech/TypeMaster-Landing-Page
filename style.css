@@ -339,7 +339,7 @@ section{
 .testimonials-persons{
         display:grid;
         grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
-        grid-gap:10px;
+        grid-gap:20px;
         padding:2% 8%;   
 }
 
@@ -523,11 +523,11 @@ hr{
      }
 
   .features-container h2{
-    font-size:25px;
+    font-size:20px;
   }
 
   .contact-left p{
-    font-size:13px;
+    font-size:12px;
   }
   
 
