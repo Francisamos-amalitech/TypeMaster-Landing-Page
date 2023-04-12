@@ -493,6 +493,15 @@ hr{
 /* ---RESPONSIVENESS  */
 
 @media(max-width:900px){
+
+    .hero-section{
+        
+    }
+
+    .welcome-section .form-group{
+        margin-bottom:40px;
+    }
+
      nav{
         display:none;
      }
@@ -524,8 +533,5 @@ hr{
   }
   
 
-  .form-group{
-    margin-bottom:70px;
-  }
- 
+
 }
