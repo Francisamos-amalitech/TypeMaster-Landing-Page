@@ -31,6 +31,7 @@ html{
 .hero-section{
     max-width:1680px;
     height:600px;
+    margin:auto;
     overflow:hidden;
     position: relative;
     width:100%;
@@ -148,24 +149,73 @@ nav li:hover:after{
 /* -- HERO SECTION STYLING */
 
 
-.welcome-section{
-    padding:2% 8%;
+
+.welcome-container{
     margin-top:10%;
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+    gap:80px;
+    align-items:center;
+    padding:0 8%;
 }
 
 .welcome-section h1{
-    font-size:60px;
+    font-size:50px;
     color:var(--white-color);
 }
 
-.welcome-section-btn{
+
+
+
+/* -- Form section */
+
+.form-group{
+    width:580px;
+    height:450px;
+    background:var(--white-color);
+    padding:30px;
+
+ 
+
+}
+
+.form-group h2{
+    font-weight:700;
+    margin:20px 0;
+}
+
+
+form input{
+    width:100%;
+    padding:15px;
+    margin:10px 0;
+}
+
+.form-input {
+  display:flex;
+  gap:15px;
+}
+
+
+.form-input .field{
+    height:45px;
+    width:100%;
+    margin:20px 0;
+}
+
+.form-btn{
     padding:13px 35px;
     background:var(--primary-color);
-    color:var(--white-color);
     outline:none;
+    color:var(--white-color);
+    border-radius:6px;
     border:none;
-    font-size:18px;
-    border-radius:5px;
-    font-weight:700;
-    margin-top:25px;
+    font-size:17px;
+    margin-top:20px;
+    transition:background .3s;
+}
+
+.form-btn:hover{
+    background:var(--dark-color);
+    color:var(--white-color);
 }
