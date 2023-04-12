@@ -517,6 +517,11 @@ hr{
      }
 
 
+     .testimonials-containner p{
+             font-size: 16px;
+     }
+
+
      .nav-right .login-btn, .nav-right .register-btn{
          display:none;
      }
