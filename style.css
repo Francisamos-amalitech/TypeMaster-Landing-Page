@@ -339,7 +339,7 @@ section{
 .testimonials-persons{
         display:grid;
         grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
-        grid-gap:15px;
+        grid-gap:17px;
         padding:2% 8%;   
 }
 
