@@ -28,11 +28,17 @@ html{
 
 
 /* -- NAVBAR SECTION ------ */
-header{
+.hero-section{
     max-width:1680px;
     height:600px;
     overflow:hidden;
     position: relative;
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/image-glass-and-keyboard.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
 }
 
 .navbar a{
@@ -41,6 +47,9 @@ header{
     color:var(--dark-color);
     font-weight:600;
 }
+
+
+
 
 .navbar{
     display:flex;
@@ -54,6 +63,10 @@ header{
     height:80px;
     box-shadow:0px 0px 10px rgba(0,0,0,0.3);
 }
+
+
+
+
 
 .nav-left{
     display:flex;
@@ -82,7 +95,9 @@ nav li::after{
     background:var(--primary-color);
     display:block;
     border-radius:5px;
-    margin:4px auto;
+    margin:2px 0;
+    transition: .3s;
+   
 }
 
 nav li:hover:after{
@@ -104,6 +119,12 @@ nav li:hover:after{
     border:2px solid var(--primary-color);
     border-radius:6px;
     color:var(--primary-color);
+    transition:background .3s;
+}
+
+.nav-right .login-btn:hover{
+    background:var(--primary-color);
+    color:var(--white-color);
 }
 
 
@@ -112,4 +133,39 @@ nav li:hover:after{
     background:var(--primary-color);
     border-radius:6px;
     color:var(--white-color);
+    transition:background .3s;
+}
+
+.nav-right .register-btn:hover{
+    background:transparent;
+    border:2px solid var(--primary-color);
+    color:var(--primary-color);
+}
+
+/* --- END OF NAVBAR -----*/
+
+
+/* -- HERO SECTION STYLING */
+
+
+.welcome-section{
+    padding:2% 8%;
+    margin-top:10%;
+}
+
+.welcome-section h1{
+    font-size:60px;
+    color:var(--white-color);
+}
+
+.welcome-section-btn{
+    padding:13px 35px;
+    background:var(--primary-color);
+    color:var(--white-color);
+    outline:none;
+    border:none;
+    font-size:18px;
+    border-radius:5px;
+    font-weight:700;
+    margin-top:25px;
 }
