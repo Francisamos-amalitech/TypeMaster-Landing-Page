@@ -486,14 +486,15 @@ hr{
 
 /* ---RESPONSIVENESS  */
 
-@media(max-width:900px){
+@media(max-width:990px){
      nav{
         display:none;
      }
 
 
-     .nav-right{
-         width:50%;
+     .nav-right .login-btn, .nav-right .register-btn{
+        padding:10px 20px;
+        margin-right:30px;
      }
 
      .welcome-section h1{
