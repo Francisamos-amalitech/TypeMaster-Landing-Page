@@ -35,6 +35,43 @@ html{
     scroll-behavior:smooth;
 }
 
+.top{
+    width:50px;
+    height:50px;
+    background:var(--primary-color);
+    position:fixed;
+    border-radius:50%;
+    z-index:1;
+    bottom:5%;
+    right:5%;
+    cursor: pointer;
+    animation:move 3s linear infinite;
+}
+
+@keyframes move {
+
+    0%{
+        transform:translateY(-10px);
+    }
+
+
+    50%{
+        transform:translateY(10px);
+    }
+
+     100%{
+        transform:translateY(-10px);
+     }
+}
+
+.top i{
+    color:var(--white-color);
+    font-size:20px;
+    padding:12px;
+    margin:auto 5px;
+    line-height:25px;
+}
+
 
 /* -- NAVBAR SECTION ------ */
 .hero-section{
